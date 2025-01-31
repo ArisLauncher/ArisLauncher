@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script type="text/javascript">
+			function jump() {
+				if ((navigator.browserlanguage && navigator.browserlanguage.indexOf('zh') != -1) || (navigator.language &&
+						navigator.language.indexOf('zh') != -1)) {
+					window.location.href = 'zh-cn/'
+				} else {
+					window.location.href = 'en/'
+				}
+			}
+		</script>
+	</head>
+	<body onload="jump()"></body>
+</html>

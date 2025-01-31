@@ -1,0 +1,1 @@
+"use strict";!function(){var e=window.location.pathname.substring(1),o=new Vue({el:"#cook-app",data:{route:e,isSecret:"secret"===e,compactMode:!1}});document.addEventListener("scroll",function(){o.compactMode=328<window.scrollY},{passive:!0})}();
