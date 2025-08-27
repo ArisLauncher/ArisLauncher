@@ -10,17 +10,14 @@
 
 ## 三、目前域名解析示意
 
-#### arislauncher.cn `(唯一解析，全球访问均为同一个服务器，内容唯一)`
-- Gitlab Pages
-
 #### arislauncher.com `(根据访问者ip自动解析至 国内/国外 两个节点)`
 - 国内：阿里云
-- 国外：Gitlab Pages
+- 国外：Github Pages
 
 
 ---
 
 
-> 注意：国内外两个服务器的文件不同步，不要使用 `.com` 引用隐私政策文件(privacy)。
+> 注意：国内外两个服务器的文件不同步，不要直接引用隐私政策文件(privacy)。
 
 ---
